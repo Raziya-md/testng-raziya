@@ -1,0 +1,32 @@
+package assignmentmaven;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class browsernavigation {
+
+	
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.edge.driver","C:\\Users\\MUBINA\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+		WebDriver driver= new EdgeDriver();
+		driver.manage().window().maximize();
+		String Url="https://rahulshettyacademy.com/practice-project";
+		String google="www.google.com";
+		String FB="www.facebook.com";
+		String dmart="https://www.dmart.in/category/dmart-grocery-aesc-grocerycore2";
+		Thread.sleep(3000);
+		driver.navigate().back();
+		driver.navigate().back();
+		driver.navigate().back();
+		driver.navigate().back();
+		driver.navigate().forward();
+		driver.navigate().forward();
+		driver.navigate().back();
+		//driver.manage().timeouts().pageLoadTimeout(10,Timeunit seconds)
+				driver.navigate().refresh();
+	}
+
+}

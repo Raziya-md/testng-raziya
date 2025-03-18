@@ -1,0 +1,23 @@
+package assignmentmaven;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class example3 {
+
+	public static void main(String[] args) {
+	System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+//driver.get("www.facebook.com");
+		System.out.println(driver.getCurrentUrl());
+		//driver.findElement(By.id("APjFqb"));
+		//driver.findElement(By.id("identifierId")).sendKeys("raziyasulthana.mba@gmail.com");
+		//driver.findElement(By.id("pass")).sendKeys("raziyamd786");
+		//driver.findElement(By.name("login")).click(); 
+
+	}
+
+}

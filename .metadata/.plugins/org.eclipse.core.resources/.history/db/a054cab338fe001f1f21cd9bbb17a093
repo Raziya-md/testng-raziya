@@ -1,0 +1,32 @@
+package projectmaven.TestNG;
+
+public class wrapper_class {
+
+	public static void main(String[] args) {
+		
+		//string to int convertion
+		int A=10;
+		String sal="2000";
+		System.out.println(A+sal);
+		
+		//first need to convert the string value to int
+		int newsal=Integer.parseInt(sal);
+		System.out.println(A+newsal);
+		
+		
+		
+		//int to string
+		int C =10;  //datatype
+		Integer B=20;    //it is an object
+		String s=B.toString();
+		System.out.println(C+B);
+		System.out.println(C+s);
+		
+		
+		Character ch='r';
+		//upper case
+		System.out.println(ch.toUpperCase(ch));
+		
+		}
+
+}

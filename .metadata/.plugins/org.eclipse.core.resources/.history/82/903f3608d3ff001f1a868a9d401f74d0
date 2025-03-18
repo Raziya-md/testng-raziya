@@ -1,0 +1,10 @@
+package projectmaven.TestNG;
+
+public class occurance_of_character {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

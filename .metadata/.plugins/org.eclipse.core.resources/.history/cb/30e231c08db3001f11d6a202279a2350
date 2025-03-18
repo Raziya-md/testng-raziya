@@ -1,0 +1,21 @@
+package assignmentmaven;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class instagram {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		WebDriver Driver = new ChromeDriver();
+		driver.manage().window().maximize();
+driver.get("https://www.instagram.com/accounts/login/?next=%2Fproud.mp%2Ffeed%2F&source=profile_feed_tab");
+		System.out.println(driver.getCurrentUrl());
+	driver.findElement(By.name("username")).sendKeys("raziyasulthana.mba@gmail.com");
+			driver.findElement(By.name("password")).sendKeys("raziyamd786");
+			driver.findElement(By.xpath("//button[@type='submit']")).click(); 
+	}
+
+}

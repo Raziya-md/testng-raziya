@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;projectmaven.practiceprograme.usinglocaters&apos; to &apos;parabank_locators&apos;&#x0D;&#x0A;- Original project: &apos;practiceprograme&apos;&#x0D;&#x0A;- Original element: &apos;projectmaven.practiceprograme.usinglocaters&apos;&#x0D;&#x0A;- Renamed element: &apos;projectmaven.practiceprograme.parabank_locators&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;usinglocaters&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;projectmaven.practiceprograme{usinglocaters.java[usinglocaters" matchStrategy="1" name="parabank_locators" qualified="false" references="true" similarDeclarations="false" stamp="1738129670407" textual="false" version="1.0"/>
+</session>

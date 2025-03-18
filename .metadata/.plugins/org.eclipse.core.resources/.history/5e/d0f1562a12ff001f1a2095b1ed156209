@@ -1,0 +1,21 @@
+package projectmaven.TestNG;
+
+import java.io.File;
+import java.io.IOException;
+
+public class File_handling {
+
+	public static void main(String[] args) throws IOException {
+		File obj= new File("C:\\Users\\MUBINA\\Desktop/raziya1.xlsx");
+		//obj.createNewFile();
+		if(obj.createNewFile()) {
+			System.out.println("File created successfully:"+obj.getName());
+		}else {
+			System.out.println("File not created");
+		}
+		
+		FileWriter wr=
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package projectmaven.TestNG;
+
+public class reverse_the_string {
+
+	public static void main(String[] args) {
+		
+          String input = "Welcome to india";
+        
+        // Split the input string into words
+        String[] words = input.split(" ");
+        
+        // Reverse the first word ("Welcome")
+        StringBuilder reversedFirstWord = new StringBuilder(words[3]);
+        reversedFirstWord.reverse();
+        
+        // Combine the reversed first word with the rest of the sentence
+        String result =  " " + words[0] + " " + words[1] + " "+ reversedFirstWord.toString() ;
+        
+        // Output the result
+        System.out.println(result);
+	}
+
+}

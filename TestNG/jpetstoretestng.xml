@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+@<parameter name="APPURL" value="https://petstore.octoperf.com/actions/Catalog.action"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="sprint_releases.jpetstore_sprint"/>
+      <methods>
+      <include name="verify_loginpage">
+            </include>
+      <exclude name="verify_homepage">
+            </exclude>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

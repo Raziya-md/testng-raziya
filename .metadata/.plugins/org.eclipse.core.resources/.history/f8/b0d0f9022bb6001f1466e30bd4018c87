@@ -1,0 +1,24 @@
+package assignmentmaven;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class walmartxpath {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+driver.manage().window().maximize();
+String Url="https://www.walmart.com/";
+driver.get(Url);
+System.out.println("driver.get(Url)");
+WebElement signin=driver.findElement(By.xpath("//div[contains(@data-automation-id,'headerSignIn')]"));
+	signin
+	
+	
+	
+	}
+
+}

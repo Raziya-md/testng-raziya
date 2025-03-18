@@ -1,0 +1,29 @@
+package projectmaven.TestNG;
+
+public class stringbuffer_stringbuilder {
+
+	public static void main(String[] args) {
+		
+		StringBuffer buff =new StringBuffer("Hello");
+		System.out.println(buff);
+		buff.append("Automation");
+		System.out.println(buff);
+		System.out.println(buff.length());
+		System.out.println(buff.capacity());
+		System.out.println(buff.reverse());
+		
+		
+		StringBuilder build =new StringBuilder("testing");
+		System.out.println(build);
+		build.append("Automation");
+		System.out.println(build);
+		System.out.println(build.append('s'));
+		System.out.println(build.length());
+		System.out.println(build.capacity());
+		System.out.println(build.reverse());
+		System.out.println(build.delete(2, 6));  //start to end in same word  snmotuAgnitset
+		System.out.println(build.repeat(build, 4));
+				
+	}
+
+}

@@ -1,0 +1,39 @@
+package assignmentmaven;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class browsernavigation {
+
+	
+
+	public static void main(String[] args)  {
+		System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		String Url="https://rahulshettyacademy.com/practice-project";
+		String google="www.google.com";
+		String FB="www.facebook.com";
+		String dmart="https://www.dmart.in/category/dmart-grocery-aesc-grocerycore2";
+		//Thread.sleep(3000);
+		
+		driver.get (Url);
+		driver.get(google);
+		driver.get(FB);
+		driver.get(dmart);
+		
+		//driver.navigate().back();
+		//driver.navigate().back();
+		//driver.navigate().back();
+		//driver.navigate().back();
+		//driver.navigate().forward();
+		//driver.navigate().forward();
+		//driver.navigate().back();
+		//driver.manage().timeouts().pageLoadTimeout(10,Timeunit seconds)
+				//driver.navigate().refresh();
+	}
+
+}

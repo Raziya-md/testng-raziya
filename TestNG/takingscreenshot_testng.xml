@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+@<parameter name="Dmartlogin" value="https://www.dmart.in/category/dmart-grocery-aesc-grocerycore2"></parameter>
+@<parameter name="mobileno" value="9704637673"></parameter>
+@<parameter name="firstname" value="Raziya"></parameter>
+@<parameter name="lastname" value="Sulthana"></parameter>
+  <test thread-count="5" name="Test">
+  <classes>
+     
+      <class name="projectmaven.TestNG.taking_screenshot"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

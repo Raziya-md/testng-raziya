@@ -1,0 +1,10 @@
+package projectmaven.TestNG;
+
+public class window_snippet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

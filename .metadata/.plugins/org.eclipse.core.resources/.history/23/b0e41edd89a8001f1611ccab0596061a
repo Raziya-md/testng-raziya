@@ -1,0 +1,119 @@
+package javaprogramme1;
+import java.util.Scanner;
+public class movieticketbooking {
+
+	public static void main(String[] args) {
+		
+		System.out.println("**** Welcome to Book my show****");
+        System.out.println("Enter the no. of movie ticket booking: ");
+        int numTickets = 0;
+      
+        Scanner scanner = new Scanner(System.in);
+        int numtickets = scanner.nextInt();
+        int Normal_price = 100;
+        
+		 
+	        // Get input from the user
+	        System.out.print("Type of ticket to book: ");
+	        int tickets = scanner.nextInt();
+	        
+		 
+		 switch (numtickets ) {
+		 case 1:
+			 System.out.println("you can book normal ticket with 100"); 
+			 int totalCost = numtickets * Normal_price;
+			  
+			 break;
+			 
+		 case 2:
+			 System.out.println("you can book balcony ticket with 150");  
+			 break;
+		 case 3:
+			 System.out.println("you can book recliner ticket with 200");  
+			 break;
+			 default:
+				 System.out.println("none of the above");  
+				 
+				 
+				 scanner.close();// Close the scanner
+
+			        
+			        System.out.println("Thank you for booking with us!");  
+		
+
+	}
+
+}
+}
+
+ /*package javaprogramme1;
+import java.util.Scanner;
+public class movieticketbooking {
+
+	public static void main(String[] args) {
+		
+		
+        
+        Scanner scanner = new Scanner(System.in);
+      
+     // Seating options and their prices
+        int NORMAL_PRICE = 100;
+        int BALCONY_PRICE = 150;
+        int RECLINER_PRICE = 200;
+
+        
+        // Welcome message
+        System.out.println("Welcome to the Movie Ticket Booking System!");
+        System.out.println("Available options:");
+        System.out.println("1. Normal - Rs. " + NORMAL_PRICE);
+        System.out.println("2. Balcony - Rs. " + BALCONY_PRICE);
+        System.out.println("3. Recliner - Rs. " + RECLINER_PRICE);
+
+        // Prompt user to choose a seat type
+        System.out.print("Enter your choice (1 for Normal,2 for Balcony, 3 for Recliner): ");
+        int choice = scanner.nextInt();
+		        		        // Conditional statements to determine booking details
+		        	        
+             
+        if (choice == 1) {
+            // Normal chosen
+            {
+                System.out.print("How many Normal tickets would you like to book? ");
+                int tickets = scanner.nextInt();
+                
+                    int totalCost = tickets * NORMAL_PRICE;
+                   
+                    System.out.println("Booking successful! Total cost: Rs. " + totalCost);
+            }
+
+
+                	
+                } if (choice == 2) {
+                    // Balcony chosen
+                    {
+                        System.out.print("How many Balcony tickets would you like to book? ");
+                        int tickets = scanner.nextInt();
+                        
+                            int totalCost = tickets * BALCONY_PRICE;
+                           
+                            System.out.println("Booking successful! Total cost: Rs. " + totalCost);
+        }
+	}if (choice == 3) {
+        // Recliner chosen
+        {
+            System.out.print("How many Recliner tickets would you like to book? ");
+            int tickets = scanner.nextInt();
+            
+                int totalCost = tickets * RECLINER_PRICE;
+               
+                System.out.println("Booking successful! Total cost: Rs. " + totalCost);
+	}}}}
+*/    
+		            
+	        
+		           
+	
+ 
+
+
+

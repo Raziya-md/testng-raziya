@@ -1,0 +1,44 @@
+package projectmaven.TestNG;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class File_handling {
+
+	public static void main(String[] args) throws IOException {
+		File obj= new File("C:\\Users\\MUBINA\\Desktop\\raziya/raziya1.xlsx");
+		//obj.createNewFile();
+		if(obj.createNewFile()) {
+			System.out.println("File created successfully:"+obj.getName());
+		}else {
+			System.out.println("File not created");
+		}
+		
+		File obj1= new File("C:\\Users\\MUBINA\\Desktop\\raziya/raziya2.txt");
+		//obj.createNewFile();
+		if(obj1.createNewFile()) {
+			System.out.println("File created successfully:"+obj1.getName());
+		}else {
+			System.out.println("File not created"+obj1.delete());
+		}
+		
+		File obj2= new File("C:\\Users\\MUBINA\\Desktop\\raziya/raziya3.docx");
+		//obj.createNewFile();
+		if(obj2.createNewFile()) {
+			//System.out.println("File created successfully:"+obj2.getName());
+			FileWriter wr=new FileWriter("C:\\Users\\MUBINA\\Desktop\\raziya/raziya3.docx");
+			wr.write("i am good girl");
+					wr.close();
+					System.out.println("File writed successfully");
+		}else {
+			System.out.println("File not written");
+		}
+		
+		//FileWriter wr=new FileWriter("C:\\Users\\MUBINA\\Desktop\\raziya/raziya3.docx");
+				//wr.write("i am good girl");
+					//	wr.close();
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;javaoops_methodoverloading&apos; to &apos;javaoops&apos;&#x0D;&#x0A;- Original project: &apos;java methods&apos;&#x0D;&#x0A;- Original element: &apos;java methods/src/javaoops_methodoverloading&apos;&#x0D;&#x0A;- Renamed element: &apos;java methods/src/javaoops&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;javaoops_methodoverloading&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;javaoops_methodoverloading" name="javaoops" qualified="false" references="true" stamp="1735565891133" textual="false" version="1.0"/>
+</session>

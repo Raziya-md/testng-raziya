@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="5">
+<test name="Test">
+@<parameter name="URL" value="https://coffee-cart.app/"></parameter>
+@<parameter name="APPURL" value="https://petstore.octoperf.com/actions/Catalog.action"></parameter>
+@<parameter name="shopping_URL" value="https://react-shopping-cart-67954.firebaseapp.com/"></parameter>
+<!--  <groups>
+<run>
+<include name="sanity"></include>
+<include name="smoke"></include>
+<exclude name="regression"></exclude>
+</run>
+</groups>-->
+<classes>
+      <class name="projectmaven.TestNG.testng_practice"/>
+      <methods>
+      <include name="coffee_cart"></include>
+      <include name="jpetstore"></include>
+       <exclude name="shoppingcart"></exclude>
+      </methods>
+            </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

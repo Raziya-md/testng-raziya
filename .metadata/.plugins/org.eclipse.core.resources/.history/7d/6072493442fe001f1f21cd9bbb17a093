@@ -1,0 +1,105 @@
+package projectmaven.TestNG;
+
+public class wrapper_class {
+
+	public static void main(String[] args) {
+		
+		//string to int convertion
+		int A=10;
+		String sal="2000";
+		System.out.println(A+sal);
+		
+		//first need to convert the string value to int
+		int newsal=Integer.parseInt(sal);
+		System.out.println(A+newsal);
+		
+		
+		
+		//int to string
+		int C =10;  //datatype
+		Integer B=20;    //it is an object
+		String s=B.toString();
+		System.out.println(C+B);   //30
+		System.out.println(C+s);   //1020
+		
+		
+		int D =1087934;  //datatype
+		Integer E=2345;    
+		Byte F=E.byteValue();
+		System.out.println(F);   //41
+		System.out.println(D+F);  
+		
+		Character ch='r';
+		//upper case
+		System.out.println(ch.toUpperCase(ch));
+		
+		Character chr='R';
+		//lower case
+		System.out.println(ch.toLowerCase(chr)); 
+		
+		
+		int f = 67476578;
+        Float fv  = Float.valueOf(f);
+        System.out.println(fv); 
+        
+        float t=786954.56f;
+        Double sc=Double.valueOf(t);
+        System.out.println(sc); 
+		
+		// Converting String to int
+        String str = "123";
+        int num = Integer.parseInt(str);
+        System.out.println(num);  // Prints 123
+        
+        // Converting int to String
+        String str2 = Integer.toString(123);
+        System.out.println(str2);  // Prints "123"
+
+        // Using valueOf to convert String to Integer
+        Integer intObj = Integer.valueOf("456");
+        System.out.println(intObj);  // Prints 456
+        
+        
+        
+        // Using primitive double type
+        double doubleNum = 5.75;  // No need for suffix (default is double)
+        System.out.println("Primitive double: " + doubleNum);
+
+        // Using Double wrapper class
+        Double doubleObj = 20.99;
+        System.out.println("Wrapper class Double: " + doubleObj);
+
+        // Converting wrapper class Double to primitive
+        double doublePrimitive = doubleObj;
+        System.out.println("Unboxed value: " + doublePrimitive);
+        
+        
+        Character c='1';
+        if (Character.isAlphabetic(c)) {
+        	System.out.println("this is not number");
+        }
+        	if (Character.isDigit(c)) {
+        		System.out.println("this is number");
+        	}
+        
+        	
+        	Character ca='a';
+            if (Character.isAlphabetic(ca)) {
+                 	if (Character.isDigit(ca)) {
+            		System.out.println("this is not alphabet");
+            	}else {
+            		System.out.println("this is alphabet");
+                
+            	}
+    
+		}
+            Character w='$';
+            //want to check whether special character
+            if (Character.isDigit(w)) && (Character.isAlphabetic(w)){
+            	System.out.println("this is special character");
+            }else {
+            	System.out.println("this is not spacial character");
+            }
+
+}
+}

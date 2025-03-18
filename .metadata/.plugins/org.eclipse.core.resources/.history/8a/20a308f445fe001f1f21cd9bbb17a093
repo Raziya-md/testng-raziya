@@ -1,0 +1,16 @@
+package projectmaven.TestNG;
+
+public class reverse_the_string {
+
+	public static void main(String[] args) {
+		String word="welcome to India";
+		String Rev="";
+String sentence[]=word.split("");
+String text=sentence[0];
+for(int i=word.length()-1;i>=0;i--) {
+	Rev=Rev+word.charAt(i);
+	System.out.println(Rev+sentence[1]+sentence[2]);
+}
+	}
+
+}

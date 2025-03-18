@@ -1,0 +1,19 @@
+package assignmentmaven;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class example5 {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		WebDriver Driver = new ChromeDriver();
+		Driver.manage().window().maximize();
+		Driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		System.out.println(Driver.getCurrentUrl());
+		Driver.findElement(By.id("openwindow")).click();
+		Driver.quit();
+	}
+
+}

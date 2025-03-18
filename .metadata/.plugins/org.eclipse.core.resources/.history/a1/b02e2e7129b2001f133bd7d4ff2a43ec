@@ -1,0 +1,22 @@
+package assignmentmaven;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class instagram {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.edge.driver","C:\\Users\\MUBINA\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+		WebDriver driver= new EdgeDriver();
+		driver.manage().window().maximize();
+driver.get("https://www.instagram.com/accounts/login/?next=%2Fproud.mp%2Ffeed%2F&source=profile_feed_tab");
+		System.out.println(driver.getCurrentUrl());
+	driver.findElement(By.className("_aa48")).sendKeys("raziyasulthana.mba@gmail.com");
+	
+		driver.findElement(By.name("password")).sendKeys("raziyamd786");
+		//driver.findElement(By.className("x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1xmf6yo x1e56ztr x540dpk x1m39q7l x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1")).click(); 
+
+	}
+
+}

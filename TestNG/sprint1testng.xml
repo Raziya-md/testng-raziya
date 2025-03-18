@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+@<parameter name="AppURL" value="https://www.browserstack.com/"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="sprint_releases.sprint1_browserstack"/>
+      <methods>
+      <include name="TC_02_verifySignUpFunctionality"></include>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

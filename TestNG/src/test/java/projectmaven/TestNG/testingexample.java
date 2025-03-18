@@ -1,5 +1,14 @@
 package projectmaven.TestNG;
 
-public class testingexample {
+import org.testng.annotations.Test;
 
+public class testingexample {
+@Test
+public void launch() {
+	
+
+	System.out.println("new code");
 }
+}
+
+

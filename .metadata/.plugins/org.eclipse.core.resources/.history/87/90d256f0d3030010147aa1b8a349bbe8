@@ -1,0 +1,12 @@
+package projectmaven.TestNG;
+
+public class testingexample {
+@Test
+public void launch() {
+	
+
+	System.out.println("new code");
+}
+}
+
+

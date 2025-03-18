@@ -6751,3 +6751,9 @@ java.io.IOException: There is not enough space on the disk
 2025-03-18 12:39:30,986 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\test\resources
 2025-03-18 12:55:09,730 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\TestNG\src\main\resources
 2025-03-18 12:55:09,733 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\TestNG\src\test\resources
+2025-03-18 13:14:53,006 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\TestNG\src\main\resources
+2025-03-18 13:14:53,010 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\TestNG\src\test\resources
+2025-03-18 13:15:33,730 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\main\resources
+2025-03-18 13:15:33,735 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\test\resources
+2025-03-18 13:15:38,295 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\main\resources
+2025-03-18 13:15:38,299 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\test\resources

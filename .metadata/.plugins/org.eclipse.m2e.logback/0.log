@@ -6730,3 +6730,24 @@ java.io.IOException: There is not enough space on the disk
 2025-03-15 13:17:27,264 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\test\resources
 2025-03-17 10:38:00,553 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2025-03-18 11:48:44,489 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-18 12:30:06,754 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-03-18 12:37:01,224 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\main\resources
+2025-03-18 12:37:01,230 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\test\resources
+2025-03-18 12:37:07,110 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\TestNG\src\main\resources
+2025-03-18 12:37:07,114 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\TestNG\src\test\resources
+2025-03-18 12:37:11,214 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-18 12:37:11,214 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MUBINA\git\WIPRO_HEALTHBITES_AUTOMATION\src\main\resources
+2025-03-18 12:37:11,218 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-18 12:37:11,218 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\MUBINA\git\WIPRO_HEALTHBITES_AUTOMATION\src\test\resources
+2025-03-18 12:37:13,540 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-18 12:37:13,546 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-03-18 12:37:16,448 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\practiceprograme\src\main\resources
+2025-03-18 12:37:16,452 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\practiceprograme\src\test\resources
+2025-03-18 12:38:50,839 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\main\resources
+2025-03-18 12:38:50,843 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\test\resources
+2025-03-18 12:39:04,160 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\main\resources
+2025-03-18 12:39:04,163 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\test\resources
+2025-03-18 12:39:30,979 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\main\resources
+2025-03-18 12:39:30,986 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\praveenAtuomation\AutomationFramework\src\test\resources
+2025-03-18 12:55:09,730 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\TestNG\src\main\resources
+2025-03-18 12:55:09,733 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\eclipse-workspace\TestNG\src\test\resources
